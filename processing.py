@@ -47,9 +47,9 @@ async def main():
     # "flatorcamaid-13b-v0.2.Q8_0.gguf" <- recommended for the normal logical model
     # A6000s on Vast.ai are a good choice for running this notebook
     
-    LOGICAL_MODEL = "TheBloke/TinyLlama-1.1B-1T-OpenOrca-GPTQ"  # model used for decision-making and base question generation (should be "smart")
+    LOGICAL_MODEL = "TheBloke/FlatOrcamaid-13B-v0.2-GPTQ"  # model used for decision-making and base question generation (should be "smart")  # model used for decision-making and base question generation (should be "smart")
     
-    LARGE_LOGICAL_MODEL = "clibrain/Llama-2-13b-ft-instruct-es-gptq-4bit"
+    LARGE_LOGICAL_MODEL = "TheBloke/Airoboros-L2-70B-3.1.2-GPTQ"
     
     ASSISTANT_MODE = False  # change to true if you want all conversations to be with an "AI language model" and not characters. Useful for more professional use cases.
     
